@@ -23,13 +23,13 @@ theme = {
         "colors": {
             "frame": hex_to_rgb(special["background"]),
             "frame_inactive": hex_to_rgb(colors["color0"]),
-            "toolbar": hex_to_rgb(colors["color8"]),
+            "toolbar": hex_to_rgb(colors["color1"]),
             "tab_background_text": hex_to_rgb(special["foreground"]),
             "tab_text": hex_to_rgb(special["foreground"]),
             "bookmark_text": hex_to_rgb(special["foreground"]),
             "button_background": hex_to_rgb(colors["color8"]),
             "ntp_background": hex_to_rgb(special["background"]),
-            "ntp_text": hex_to_rgb(special["foreground"]),
+            "ntp_text": hex_to_rgb(colors["color8"]),
             "ntp_link": hex_to_rgb(colors["color4"])
         }
     }
