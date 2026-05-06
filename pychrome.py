@@ -2,6 +2,7 @@ import json
 from pathlib import Path
 
 pywalpath = Path.home() / ".cache" / "wal" / "colors.json"
+manifestpath = Path.home() / "pychrome" / "manifest.json"
 
 def hex_to_rgb(hex_color):
     hex_color = hex_color.lstrip("#")
@@ -34,7 +35,7 @@ theme = {
     }
 }
 
-with open("manifest.json", "w") as f:
+with open(manifestpath, "w") as f:
     json.dump(theme, f, indent=4)
 
 print("applied theme!")
