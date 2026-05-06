@@ -21,9 +21,9 @@ theme = {
     "description": "chromium theme with pywal cuz i wanna match my current setup ay",
     "theme": {
         "colors": {
-            "frame": hex_to_rgb(special["background"]),
+            "frame": hex_to_rgb(special["background"]),#the space behidn the tab area
             "frame_inactive": hex_to_rgb(colors["color0"]),
-            "toolbar": hex_to_rgb(colors["color1"]),
+            "toolbar": hex_to_rgb(colors["color1"]), #the tab and search bar area ig
             "tab_background_text": hex_to_rgb(special["foreground"]),
             "tab_text": hex_to_rgb(special["foreground"]),
             "bookmark_text": hex_to_rgb(special["foreground"]),
