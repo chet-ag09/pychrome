@@ -24,6 +24,7 @@ theme = {
             "frame": hex_to_rgb(special["background"]),#the space behidn the tab area
             "frame_inactive": hex_to_rgb(colors["color0"]),
             "toolbar": hex_to_rgb(colors["color1"]), #the tab and search bar area ig
+            "toolbar_button_icon": hex_to_rgb(special["background"]),
             "tab_background_text": hex_to_rgb(special["foreground"]),
             "tab_text": hex_to_rgb(special["foreground"]),
             "bookmark_text": hex_to_rgb(special["foreground"]),
