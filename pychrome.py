@@ -18,7 +18,7 @@ theme = {
     "manifest_version": 3,
     "name": "pychrome",
     "version": "1.0",
-    "description": "chromium theme with pywal cuz i wanna match my current setup ay",
+    "description": "chromium theme with pywal",
     "theme": {
         "colors": {
             "frame": hex_to_rgb(special["background"]),#the space behidn the tab area
